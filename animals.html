@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pets Info</title>
+</head>
+<body>
+
+    <h1>Meet the Pets!</h1>
+
+    <!-- The list of animals -->
+    <ol>
+        <li>Stella</li>
+        <li>Cody</li>
+        <li>Mango</li>
+        <li>Lucy</li>
+        <li>Buhmie</li>
+    </ol>
+
+    <p>
+        <label for="petNum">Select the Pet Number:</label>
+        <input type="text" id="petNum" name="petNum" maxlength="4" size="4">
+        <button onclick="showInfo()">Click for information!</button>
+    </p>
+
+    <p class="selectedPetInfo"></p>
+
+    <script src="animals.js"></script>
+
+</body>
+</html>
